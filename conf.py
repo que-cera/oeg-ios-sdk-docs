@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sungame Unity SDK Documentation'
-copyright = '2020, Sungame'
-author = 'tlb'
+project = 'OEG iOS SDK Documentation'
+copyright = '2025, OEG'
+author = 'TuLV'
 
 
 # -- General configuration ---------------------------------------------------

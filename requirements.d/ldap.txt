@@ -1,2 +1,0 @@
-# not available on windows
-python-ldap

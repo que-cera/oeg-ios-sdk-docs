@@ -27,7 +27,7 @@ Login and Register
         1. OEGActionType:
         typedef enum {
             Register = 0,
-            LoginSunID,
+            LoginOEGID,
             LoginFacebook,
             LoginGoogle,
             LoginApple,

@@ -1,19 +1,19 @@
-Welcome to OEG SDK for Android's documentation!
-===================================
+.. OEG iOS SDK Documentation documentation master file, created by
+   sphinx-quickstart on Thu May 8 10:42:28 2020.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-**EG SDK for Android** is a Android library for OEG's games.
-
-Check out how to :doc:`installation` the project section for and the :doc:`usage` further information.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
+Welcome to OEG iOS SDK documentation!
+=======================================================
 
 .. toctree::
+   :maxdepth: 2
 
-   installation
-   usage
-   firebase
+   setup
+   install
+   auth
+   payment
+   other
+
+
+* :ref:`search`

@@ -1,4 +1,4 @@
-OEG SDK for android
+OEG SDK for iOS
 =======================================
 
-This is for OEG SDK for Android documention
+This is for OEG SDK for iOS documention

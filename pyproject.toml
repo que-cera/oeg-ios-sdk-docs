@@ -3,6 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "OEG SDK for Android"
-authors = [{name = "Justin", email = "congtuyenvip@gmail.com"}]
+name = "OEG SDK for iOS"
+authors = [{name = "TuLV", email = "tulv85@gmail.com"}]
 dynamic = ["version", "description"]

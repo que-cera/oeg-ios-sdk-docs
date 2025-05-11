@@ -8,17 +8,18 @@ Step by step
         
 - Drag and drop or import OEGFramework.framework to your project. 
 
+- Drag and drop or import folder Fonts to your project. 
+
 - General tab ()
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    Scroll to "Frameworks, Libraries, and Embedded Content" choose OEGFramework.framework -> Embed -> Embed & Sign
-    Change value for “Allow Non-modular Includes in Framework Modules”: Yes
+    Scroll to "Frameworks, Libraries, and Embedded Content" -> choose OEGFramework.framework -> Embed -> Embed & Sign
 
 - Build Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
     Add value for “Other Linker Flags”: -all_load -ObjC -lc++
-    Change value for “Allow Non-modular Includes in Framework Modules”: Yes
+    -> Change value for “Allow Non-modular Includes in Framework Modules”: Yes
 
 - Info.plist config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -96,7 +97,21 @@ Now configure the .plist for your project: In Xcode right-click your .plist file
     <key>NSUserTrackingUsageDescription</key>
     <string>App would like to access IDFA for tracking purpose</string>
 
+- Set up fonts.
 
+.. code-block:: Objective-C
+
+    <key>UIAppFonts</key>
+	<array>
+		<string>Inter-Black.ttf</string>
+		<string>Inter-Bold.ttf</->
+		<string>Inter-ExtraBold.ttf</string>
+		<string>Inter-Light.ttf</string>
+		<string>Inter-Medium.ttf</string>
+		<string>Inter-Regular.ttf</string>
+		<string>Inter-SemiBold.ttf</string>
+		<string>Inter-Thin.ttf</string>
+	</array>
 
 - Import the OEGFramework to App Delegate
 

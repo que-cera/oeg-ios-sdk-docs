@@ -1,7 +1,9 @@
 Other methods
 =======================================================
-
+Profile 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Use this method to show screen Profile 
+
 .. code-block:: Objective-C
 
         /// Show profile from viewcontroller and callback
@@ -12,8 +14,11 @@ Use this method to show screen Profile
         /// Show profile with callback
         /// @param callback OEGAccountCallback
         - (void)showProfileWithCallback:(OEGAccountCallback)callback;
-        
+
+Change Password
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^        
 Use this method to show screeen Change Password
+
 .. code-block:: Objective-C
 
         /// Show change password from viewcontroller and callback
@@ -28,6 +33,7 @@ Use this method to show screeen Change Password
 Logout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Use this method to clear the saved token, Google and Facebook credential when user want to switch to new account
+
 .. code-block:: Objective-C
 
         [[OEGManager sharedManager] logout];
@@ -45,10 +51,10 @@ Use this method to get stored uuid (return null if user haven't login yet)
         [OEGManager getAPIUUID]
 
 Use this method to get Playnow Status (return NO if user haven't playnow yet)
+
 .. code-block:: Objective-C
 
         [OEGManager isPlayNow]
-
 
 Tracking
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

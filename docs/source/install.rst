@@ -6,9 +6,9 @@ Step by step
 
 - Drag and drop or import SDKConfig.plist to your project we will send private for you **
         
-- Drag and drop or import OEGFramework.framework to your project. 
+- Drag and drop or import OEGFramework.framework to your project (Download SDK: https://github.com/que-cera/oeg-ios-sdk/blob/develop/OEGFramework/SDK.zip ). 
 
-- Drag and drop or import folder Fonts to your project. 
+- Drag and drop or import folder Fonts to your project (Download fonts: https://github.com/que-cera/oeg-ios-sdk/blob/develop/Fonts.zip ).
 
 - General tab ()
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -159,3 +159,6 @@ Now configure the .plist for your project: In Xcode right-click your .plist file
             return [OEGManager handleOpenURL:url options:options];
         }
         
+- Download Sample: https://github.com/que-cera/oeg-ios-sdk/blob/develop/TestSDK.zip
+
+- Cài bản build demo SDK: https://dply.me/vnc3nq

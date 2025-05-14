@@ -159,7 +159,12 @@ Now configure the .plist for your project: In Xcode right-click your .plist file
             return [OEGManager handleOpenURL:url options:options];
         }
         
+- Download SDK: https://github.com/que-cera/oeg-ios-sdk/blob/develop/OEGFramework/SDK.zip
 
 - Download Sample: https://github.com/que-cera/oeg-ios-sdk/blob/develop/TestSDK.zip
 
-- Cài bản build demo SDK: https://dply.me/vnc3nq
+- Download fonts: https://github.com/que-cera/oeg-ios-sdk/blob/develop/Fonts.zip
+
+- Cài bản build OEG Demo SDK Horizontal: https://dply.me/vnc3nq
+
+- Cài bản build OEG Demo SDK Vertical: https://dply.me/l0p6a5
